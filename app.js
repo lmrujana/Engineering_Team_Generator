@@ -119,8 +119,10 @@ const createNewTeam = async (employees = []) => {
 
 const init = async () =>{
     const team = await createNewTeam();
-    console.log(team);
+    // console.log(team)
 
+    const html = render(team);
+    fs.writeFile(outputPath, html, (err) => err ? console.log(err) : console.log('File Generated!'));
 };
 
 init();
