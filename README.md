@@ -14,7 +14,7 @@
 
   A CLI application that generates an HTML file with the basic information of an engineering team. It uses inquirer to promp questions about the team members and it allows to add any number of team members.
 
-  Use the link below to watch a demo of the app in used:
+  Use the link below to watch a demo of the app in used:  
   [YouTube](https://youtu.be/ce5cGRJ9YNs "Demo Video")
 
   Heres a screenshot of the final result, opened in the browser:
